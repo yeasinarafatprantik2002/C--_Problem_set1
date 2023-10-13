@@ -27,12 +27,12 @@ int main()
         {
             cout << "The Largest Number Is: " << num3;
         }
-        else
+        else// Check all numbers are equal
         {
             cout << "All Numbers Are Equal!";
         }
     }
-    else
+    else// Handling invalid input
     {
         cout << "Please Enter A Valid Number!";
     }
