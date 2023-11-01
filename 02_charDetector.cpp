@@ -5,9 +5,8 @@ int main()
 {
     char chr;
     cout << "Enter Your Character: ";
-    cin >> chr;
 
-    if (chr == chr > 'A' || chr == chr > 'a' && chr == chr < 'Z' || chr == chr < 'z') // Check char datatypes
+    if ((cin >> chr) && ((chr >= 'a' || chr >= 'A') && (chr <= 'z' || chr <= 'Z'))) // Check char datatypes
 
     {
 
